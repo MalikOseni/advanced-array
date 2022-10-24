@@ -30,4 +30,9 @@ for (let i = 0; i < apple.length; i++){
         b.push(apple[i])
     }
 }
-console.log(b)
+console.log(b);
+
+const now = new Date();
+let h = now.getUTCHours() - 12;
+
+console.log(h)
